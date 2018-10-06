@@ -241,7 +241,7 @@ void SettingsPage::showBackups()
 
 bool SettingsPage::eventFilter(QObject *obj, QEvent *event) 
 {
-    if (event->type() == QMouseEvent::MouseButtonPress::LeftButton) {
+    if (event->type() == QMouseEvent::MouseButtonPress) {
         if (obj == ui->frameNavMain) {
             ui->frameMain->setVisible(true);
             this->hideNav();
@@ -419,7 +419,6 @@ ProxyAddressValidator::ProxyAddressValidator(QObject *parent) :
 QValidator(parent)
 {
 }
-
 QValidator::State ProxyAddressValidator::validate(QString &input, int &pos) const
 {
     Q_UNUSED(pos);
@@ -428,6 +427,5 @@ QValidator::State ProxyAddressValidator::validate(QString &input, int &pos) cons
     proxyType addrProxy = proxyType(serv, true);
     if (addrProxy.IsValid())
         return QValidator::Acceptable;
-
     return QValidator::Invalid;
 }*/
