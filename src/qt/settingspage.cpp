@@ -241,8 +241,7 @@ void SettingsPage::showBackups()
 
 bool SettingsPage::eventFilter(QObject *obj, QEvent *event) 
 {
-    if (event->type() == QMouseEvent::MouseButtonPress::LeftButton) 
-    {
+    if (event->type() == QMouseEvent::MouseButtonPress::LeftButton) {
         if (obj == ui->frameNavMain) {
             ui->frameMain->setVisible(true);
             this->hideNav();
