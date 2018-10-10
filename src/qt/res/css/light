@@ -810,7 +810,7 @@ QWidget .QFrame#frame .QLabel#labelBalanceText { /* Available Balance Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
 background-color:#ffa500;
-color:#ffffff;
+color:#000000;
 margin-right:5px;
 padding-right:5px;
 font-size:10pt;
@@ -914,7 +914,7 @@ qproperty-alignment: 'AlignVCenter | AlignCenter';
 max-width: 421px;
 min-width: 421px;
 background-color:#ffa500;
-color:#fff;
+color:#000;
 margin-right: 5px;
 padding-right: 5px;
 font-weight:bold;
@@ -1037,7 +1037,7 @@ QWidget .QFrame#framePrivateSend .QPushButton#togglePrivateSend { /* Start Priva
 min-height: 40px;
 font-size:10pt;
 font-weight:normal;
-color:#ffffff;
+color:#000000;
 padding-left:10px;
 padding-right:10px;
 padding-top:5px;
