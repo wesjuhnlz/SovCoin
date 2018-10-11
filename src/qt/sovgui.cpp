@@ -188,7 +188,7 @@ SOVGUI::SOVGUI(const PlatformStyle *platformStyle, const NetworkStyle *networkSt
     createActions();
 
     QFrame *statusbar = new QFrame;
-    statusbar->setObjectName("QStringLiteral"("topbar"));
+    statusbar->setObjectName(QStringLiteral("topbar"));
     statusbar->setStyleSheet("QFrame { background-color: #121212; }");
     // Status bar notification icons
     QFrame *frameBlocks = new QFrame();
