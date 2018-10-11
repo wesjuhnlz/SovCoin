@@ -5,6 +5,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "sovgui.h"
+#include "amount.h"
 
 #include "sovunits.h"
 #include "clientmodel.h"
