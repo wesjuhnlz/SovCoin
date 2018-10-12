@@ -32,12 +32,12 @@ background-color:#f8f6f6;
 }
 
 QMenu::item {
-color:#000;
+color:#fff;
 }
 
 QMenu::item:selected {
 background-color:#f2f0f0;
-color:#000;
+color:#fff;
 }
 
 QToolBar {
@@ -54,12 +54,12 @@ min-height:2.5em;
 min-width: 8em;
 padding: 0em 1em;
 /*font-weight:bold;*/
-color:#000;
+color:#fff;
 }
 
 QToolBar > QToolButton:checked {
 background-color:#ffa500;
-color:#000;
+color:#fff;
 font-weight:bold;
 }
 
@@ -1641,4 +1641,3 @@ background-color:#F8F6F6;
 QDialog#TransactionDescDialog QTextEdit { /* Contents of Receive Coin Dialog */
 border:1px solid #d7d7d7;
 }
-
