@@ -44,7 +44,7 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle *networkStyle) 
 
     // define text to place
     QString titleText       = tr("");
-    QString copyrightTextSOV   = QChar(0xA9)+QString(" 2018 ").arg(COPYRIGHT_YEAR) + QString(tr("Developed by Devilking6105 IamLegion"));
+    QString copyrightTextSOV   = QChar(0xA9)+QString(" 2018 ").arg(COPYRIGHT_YEAR) + QString(tr("Developed_by_Devilking6105_IamLegion"));
     QString titleAddText    = networkStyle->getTitleAddText();
     // networkstyle.cpp can't (yet) read themes, so we do it here to get the correct Splash-screen
     QString splashScreenPath = ":/images/" + GUIUtil::getThemeName() + "/splash";
