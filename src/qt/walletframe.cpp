@@ -87,7 +87,7 @@ void WalletFrame::removeAllWallets()
 {
     QMap<QString, WalletView*>::const_iterator i;
     for (i = mapWalletViews.constBegin(); i != mapWalletViews.constEnd(); ++i)
-        walletStack->removeWidget(i.value());
+    walletStack->removeWidget(i.value());
     mapWalletViews.clear();
 }
 
