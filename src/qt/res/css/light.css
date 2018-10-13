@@ -20,23 +20,23 @@ background-color:#000;
 }
 
 QMenuBar::item {
-background-color:#fff;
+background-color:#000;
 }
 
 QMenuBar::item:selected {
-background-color:#f8f6f6;
+background-color:#000;
 }
 
 QMenu {
-background-color:#f8f6f6;
+background-color:#000;
 }
 
 QMenu::item {
-color:#fff;
+color:#000;
 }
 
 QMenu::item:selected {
-background-color:#f2f0f0;
+background-color:#000;
 color:#fff;
 }
 
