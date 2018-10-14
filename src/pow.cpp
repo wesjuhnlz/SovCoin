@@ -112,7 +112,7 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
     if (params.useDarkGravityWave || pindexLast->nHeight <= 100) {
        return DarkGravityWave(pindexLast, params);
     }
-     if(pindexLast->nHeight <= hardfork block number)  {
+     if(pindexLast->nHeight <= 85000)  {
         return LwmaGetNextWorkRequired(pindexLast, pblock, params);
      }
 
