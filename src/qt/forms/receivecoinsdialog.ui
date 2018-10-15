@@ -195,6 +195,10 @@
 								<item row="8" column="2">
 									<widget class="QCheckBox" name="checkUseInstantSend">
 										<property name="text">
+											<font>
+										           <color>white</color>
+										           <weight>75</weight>
+										           <bold>true</bold>
 											<string>Request Instant Send</string>
 										</property>
 										<property name="checked">
