@@ -119,7 +119,7 @@ padding-bottom:5px;
 }
 
 QPushButton:hover {
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #ffffff, stop: .1 #ffffff, stop: .95 #ffffff, stop: 1 #ffffff);
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #000000, stop: .1 #000000, stop: .95 #000000, stop: 1 #000000);
 }
 
 QPushButton:focus {
@@ -128,7 +128,7 @@ outline:none;
 }
 
 QPushButton:pressed {
-border:1px solid #000;
+border:1px solid #fff;
 }
 
 QComboBox { /* Dropdown Menus */
