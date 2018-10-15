@@ -1325,7 +1325,7 @@ min-height:27px;
 QDialog#SendCoinsDialog QLabel#labelBalance {
 margin-left:0px;
 padding-left:0px;
-color:#000000;
+color:#ffffff;
 /* font-weight:bold;
 border-radius:5px;
 padding-top:20px;
@@ -1542,7 +1542,7 @@ QWidget#ReceiveCoinsDialog .QFrame#frame2 .QLabel#label { /* Amount Label */
 background-color:#999;
 border: 1px solid #fff;
 min-width:102px;
-color:#000000;
+color:#ffffff;
 /*font-weight:bold;
 font-size:8pt;*/
 padding-right:5px;
@@ -1552,7 +1552,7 @@ QWidget#ReceiveCoinsDialog .QFrame#frame2 .QLabel#label_3 { /* Message Label */
 background-color:#F8F6F6;
 border: 1px solid #fff;
 min-width:102px;
-color:#000;
+color:#fff;
 /*font-weight:bold;
 font-size:8pt;*/
 padding-right:5px;
@@ -1657,12 +1657,12 @@ margin-right:1px;
 }
 
 QLabel#transactionSumLabel { /* Example of setObjectName for widgets without name */
-color:#000000;
+color:#ffffff;
 font-weight:bold;
 }
  
 QLabel#transactionSum { /* Example of setObjectName for widgets without name */
-color:#000000;
+color:#fffffff;
 }
 
 /* TRANSACTION DETAIL DIALOG */
