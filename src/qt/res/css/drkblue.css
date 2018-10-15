@@ -77,7 +77,7 @@ color:#fff;
 }
 
 .QCheckBox { /* Checkbox Labels */
-color:#000000;
+color:#fff;
 background-color:transparent;
 }
 
@@ -692,7 +692,7 @@ margin-bottom:0px;
 
 QDialog#OptionsDialog QLabel#label_3 { /* Translations Missing? Label */
 qproperty-alignment: 'AlignVCenter | AlignCenter';
-color:#000000;
+color:#fff;
 font-weight:bold; 
 padding-bottom:8px;
 }
@@ -719,7 +719,7 @@ min-width:180px;
 }
 
 QDialog#RPCConsole QWidget#tab_peers  QLabel#peerHeading { /* Peers Info Header */
-color:#000000;
+color:#ffffff;
 font-weight:bold; 
 }
 
@@ -831,7 +831,7 @@ margin-left:16px;
 QWidget .QFrame#frame .QLabel#labelBalanceText { /* Available Balance Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
-background-color:#000000;
+background-color:#ffffff;
 color:#ffffff;
 font-weight:bold; 
 margin-right:5px;
@@ -1063,7 +1063,7 @@ QWidget .QFrame#framePrivateSend .QPushButton#togglePrivateSend { /* Start Priva
 min-height: 40px;
 font-size:10pt;
 font-weight:bold;
-color:#000000;
+color:#ffffff;
 padding-left:10px;
 padding-right:10px;
 padding-top:5px;
@@ -1145,7 +1145,7 @@ background-repeat:none;
 
 QWidget .QFrame#frame_2 .QLabel#label_4 { /* Recent Transactions Label */
 min-width:180px;
-color:#000000;
+color:#ffffff;
 margin-left:67px;
 margin-top:83px;
 margin-right:5px;
@@ -1217,7 +1217,7 @@ min-height:25px;
 }
 
 QDialog#SendCoinsDialog .QFrame#frameCoinControl .QLabel#labelCoinControlFeatures { /* Coin Control Header */
-color:#000;
+color:#fff;
 font-weight:bold;
 font-size:10pt;
 }
@@ -1287,7 +1287,7 @@ border:1px solid #000000;
 }
 
 QDialog#SendCoinsDialog .QCheckBox#checkUsePrivateSend { /* PrivateSend Checkbox */
-color:#000000;
+color:#ffffff;
 font-weight:bold;
 background: qradialgradient(cx:0.5, cy:0.5, radius: 0.5, fx:0.5, fy:0.5, stop:0 rgba(248, 246, 246, 128), stop: 1 rgba(0, 0, 0, 0));
 border-radius:5px;
@@ -1296,7 +1296,7 @@ padding-bottom:18px;
 }
 
 QDialog#SendCoinsDialog .QCheckBox#checkUseInstantSend { /* InstantSend Checkbox */
-color:#000000;
+color:#ffffff;
 font-weight:bold;
 background: qradialgradient(cx:0.5, cy:0.5, radius: 0.5, fx:0.5, fy:0.5, stop:0 rgba(248, 246, 246, 128), stop: 1 rgba(0, 0, 0, 0));
 border-radius:5px;
@@ -1313,7 +1313,7 @@ QDialog#SendCoinsDialog QLabel#label {
 /*margin-left:20px;
 margin-right:-2px;
 padding-right:-2px;
-color:#000000;
+color:#ffffff;
 font-size:10pt;
 font-weight:bold;
 border-radius:5px;
@@ -1345,7 +1345,7 @@ background-color:#F8F6F6;
 min-width:102px;
 font-weight:normal;
 /*font-size:8pt;*/
-color:#000;
+color:#fff;
 min-height:25px;
 margin-right:5px;
 padding-right:5px;
@@ -1494,12 +1494,12 @@ QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::item {
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::item:selected { /* Coin Control Item (selected) */
 background-color:#f7f7f7;
-color:#000;
+color:#fff;
 }
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::item:checked { /* Coin Control Item (checked) */
 background-color:#f7f7f7;
-color:#000;
+color:#fff;
 }
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::branch:selected { /* Coin Control Branch Icon */
@@ -1507,7 +1507,7 @@ background-image: url(':/images/light/drkblue_qtreeview_selected');
 background-repeat:no-repeat;
 background-position:center;
 background-color:#f7f7f7;
-color:#000;
+color:#fff;
 }
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::branch:checked { /* Coin Control Branch Icon */
@@ -1515,7 +1515,7 @@ background-image: url(':/images/light/drkblue_qtreeview_selected');
 background-repeat:no-repeat;
 background-position:center;
 background-color:#f7f7f7;
-color:#000;
+color:#fff;
 }
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::seperator {
@@ -1532,7 +1532,7 @@ QWidget#ReceiveCoinsDialog .QFrame#frame2 .QLabel#label_2 { /* Label Label */
 background-color:#F8F6F6;
 border: 1px solid #fff;
 min-width:102px;
-color:#000;
+color:#fff;
 /*font-weight:bold;
 font-size:8pt;*/
 padding-right:5px;
@@ -1613,7 +1613,7 @@ border:1px solid #000000;
 }
 
 QWidget#ReceiveCoinsDialog .QFrame#frame .QLabel#label_6 { /* Requested Payments History Label */
-color:#000;
+color:#fff;
 font-weight:bold;
 font-size:10pt;
 }
