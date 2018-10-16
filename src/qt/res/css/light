@@ -136,7 +136,7 @@ border:1px solid #000000;
 padding: 3px 5px 3px 5px;
 background:#fcfcfc;
 min-height:25px;
-color:#ffffff;
+color:#000000;
 }
 
 QComboBox:checked {
@@ -145,7 +145,7 @@ background:#f2f2f2;
 
 QComboBox:editable {
 background: #000000;
-color:#ffffff;
+color:#000000;
 border:0px solid transparent;
 }
 
@@ -938,7 +938,7 @@ qproperty-alignment: 'AlignVCenter | AlignCenter';
 max-width: 421px;
 min-width: 421px;
 background-color:#000000;
-color:#ffffff;
+color:#000000;
 margin-right: 5px;
 padding-right: 5px;
 font-weight:bold;
@@ -1077,7 +1077,7 @@ QWidget .QFrame#framePrivateSend .QPushButton#togglePrivateSend:hover {
 QWidget .QFrame#framePrivateSend .QPushButton#privateSendAuto { /* Try Mix Button */
 background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #f6f6f6, stop: .1 rgba(250, 250, 250, 128), stop: .95 rgba(250, 250, 250, 255), stop: 1 #ebebeb);
 border:1px solid #000000;
-color:#ffffff;
+color:#000000;
 font-weight:bold; 
  
 min-height:25px;
@@ -1097,7 +1097,7 @@ border:1px solid #9e9e9e;
 QWidget .QFrame#framePrivateSend .QPushButton#privateSendReset { /* Reset Button */
 background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #f6f6f6, stop: .1 rgba(250, 250, 250, 128), stop: .95 rgba(250, 250, 250, 255), stop: 1 #ebebeb);
 border:1px solid #000000;
-color:#ffffff;
+color:#000000;
 font-weight:bold; 
 min-height:25px;
 font-size:6pt;
@@ -1116,7 +1116,7 @@ border:1px solid #9e9e9e;
 QWidget .QFrame#framePrivateSend .QPushButton#privateSendInfo { /* Info Button */
 background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #f6f6f6, stop: .1 rgba(250, 250, 250, 128), stop: .95 rgba(250, 250, 250, 255), stop: 1 #ebebeb);
 border:1px solid #000000;
-color:#ffffff;
+color:#000000;
 font-weight:bold; 
 min-height:25px;
 font-size:6pt;
@@ -1253,7 +1253,7 @@ padding-right:10px;
 QDialog#SendCoinsDialog .QPushButton#clearButton { /* Clear Button */
 background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #f6f6f6, stop: .1 rgba(250, 250, 250, 128), stop: .95 rgba(250, 250, 250, 255), stop: 1 #ebebeb);
 border:1px solid #000000;
-color:#ffffff;
+color:#000000;
 font-weight:bold; 
 padding-left:10px;
 padding-right:10px;
@@ -1494,12 +1494,12 @@ QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::item {
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::item:selected { /* Coin Control Item (selected) */
 background-color:#f7f7f7;
-color:#fff;
+color:#000;
 }
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::item:checked { /* Coin Control Item (checked) */
 background-color:#f7f7f7;
-color:#fff;
+color:#000;
 }
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::branch:selected { /* Coin Control Branch Icon */
@@ -1507,7 +1507,7 @@ background-image: url(':/images/light/drkblue_qtreeview_selected');
 background-repeat:no-repeat;
 background-position:center;
 background-color:#f7f7f7;
-color:#fff;
+color:#000;
 }
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::branch:checked { /* Coin Control Branch Icon */
@@ -1515,7 +1515,7 @@ background-image: url(':/images/light/drkblue_qtreeview_selected');
 background-repeat:no-repeat;
 background-position:center;
 background-color:#f7f7f7;
-color:#fff;
+color:#000;
 }
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::seperator {
