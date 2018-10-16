@@ -420,7 +420,7 @@ border: 1px solid #000000;
 
 QDialog .QTabWidget QTabBar::tab {
 background-color:#000000;
-color:#fff;
+color:#000;
 padding-left:10px;
 padding-right:10px;
 padding-top:5px;
@@ -444,7 +444,7 @@ font-weight:bold;
 
 QDialog .QTabWidget .QWidget {
 background-color:#000;
-color:#fff;
+color:#000;
 font-weight:bold; 
 }
 
@@ -512,7 +512,7 @@ padding-right:10px;
 
 QDialog#SignVerifyMessageDialog QPlainTextEdit { /* Message Signing Text */
 border:1px solid #000000;
-background-color:#fff;
+background-color:#000;
 font-weight:bold; 
 }
 
