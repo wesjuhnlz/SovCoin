@@ -55,7 +55,7 @@ min-height:2.5em;
 min-width: 8em;
 padding: 0em 1em;
 /*font-weight:bold;*/
-color:#fff;
+color:#000;
 }
 
 QToolBar > QToolButton:checked {
@@ -281,7 +281,7 @@ background-color:transparent;
 QHeaderView::section { /* Table Header Sections */
 qproperty-alignment:center;
 background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 0.25, stop: 0 #000000, stop: 1 #000000);
-color:#fff;
+color:#000;
 min-height:25px;
 font-weight:bold;
 font-size:8pt;
@@ -316,7 +316,7 @@ font-weight:bold;
 
 QTableView::item:selected { /* Table Item Selected */
 background-color:#000000;
-color:#fff;
+color:#000;
 font-weight:bold;
 }
 
@@ -438,7 +438,7 @@ border-right: 1px solid #000000;
 
 QDialog .QTabWidget QTabBar::tab:selected, QDialog .QTabWidget QTabBar::tab:hover {
 background-color:#000000;
-color:#fff;
+color:#000;
 font-weight:bold;
 }
 
@@ -1674,3 +1674,4 @@ background-color:#F8F6F6;
 QDialog#TransactionDescDialog QTextEdit { /* Contents of Receive Coin Dialog */
 border:1px solid #000000;
 }
+
