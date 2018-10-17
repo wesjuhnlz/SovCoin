@@ -12,7 +12,7 @@ background-color:#ffffff;
 
 .QFrame {
 background-color:transparent;
-border:0px solid #fff;
+border:0px solid #000;
 }
 
 QMenuBar {
@@ -55,7 +55,7 @@ min-height:2.5em;
 min-width: 8em;
 padding: 0em 1em;
 /*font-weight:bold;*/
-color:#000;
+color:#fff;
 }
 
 QToolBar > QToolButton:checked {
@@ -831,7 +831,7 @@ margin-left:16px;
 QWidget .QFrame#frame .QLabel#labelBalanceText { /* Available Balance Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
-background-color:#ffffff;
+background-color:#000000;
 color:#ffffff;
 font-weight:bold; 
 margin-right:5px;
@@ -1674,4 +1674,3 @@ background-color:#F8F6F6;
 QDialog#TransactionDescDialog QTextEdit { /* Contents of Receive Coin Dialog */
 border:1px solid #000000;
 }
-
