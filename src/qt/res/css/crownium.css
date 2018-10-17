@@ -831,7 +831,7 @@ margin-left:16px;
 QWidget .QFrame#frame .QLabel#labelBalanceText { /* Available Balance Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
-background-color:#ffffff;
+background-color:#000000;
 color:#ffffff;
 font-weight:bold; 
 margin-right:5px;
