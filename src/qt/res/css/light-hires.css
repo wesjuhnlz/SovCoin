@@ -1662,7 +1662,7 @@ font-weight:bold;
 }
  
 QLabel#transactionSum { /* Example of setObjectName for widgets without name */
-color:#fffffff;
+color:#ffffff;
 }
 
 /* TRANSACTION DETAIL DIALOG */
@@ -1674,4 +1674,3 @@ background-color:#F8F6F6;
 QDialog#TransactionDescDialog QTextEdit { /* Contents of Receive Coin Dialog */
 border:1px solid #000000;
 }
-
