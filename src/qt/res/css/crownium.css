@@ -1662,7 +1662,7 @@ font-weight:bold;
 }
  
 QLabel#transactionSum { /* Example of setObjectName for widgets without name */
-color:#fffffff;
+color:#ffffff;
 }
 
 /* TRANSACTION DETAIL DIALOG */
