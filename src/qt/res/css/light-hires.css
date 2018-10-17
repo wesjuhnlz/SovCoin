@@ -144,8 +144,8 @@ background:#f2f2f2;
 }
 
 QComboBox:editable {
-background: #000000;
-color:#000000;
+background: #ffffff;
+color:#ffffff;
 border:0px solid transparent;
 }
 
@@ -168,7 +168,7 @@ padding-left:1px;
 QComboBox QAbstractItemView::item { margin:4px; }
 
 QComboBox::item {
-color:#000000;
+color:#ffffff;
 }
 
 QComboBox::item:alternate {
@@ -1674,3 +1674,4 @@ background-color:#F8F6F6;
 QDialog#TransactionDescDialog QTextEdit { /* Contents of Receive Coin Dialog */
 border:1px solid #000000;
 }
+
