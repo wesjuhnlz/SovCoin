@@ -37,7 +37,7 @@ color:#000;
 
 QMenu::item:selected {
 background-color:#000;
-color:#fff;
+color:#000;
 font-weight:bold; 
 }
 
@@ -73,7 +73,7 @@ background-color:#F8F6F6;
 QLabel { /* Base Text Size & Color */
 font-size:9pt;
 font-weight:bold;    
-color:#fff;
+color:#000;
 }
 
 .QCheckBox { /* Checkbox Labels */
@@ -310,8 +310,7 @@ border:0px solid #fff;
 
 QTableView::item { /* Table Item */
 background-color:#fff;
-font-size:9pt;
-font-weight:bold; 
+font-size:9pt; 
 }
 
 QTableView::item:selected { /* Table Item Selected */
@@ -419,8 +418,8 @@ border: 1px solid #000000;
 }
 
 QDialog .QTabWidget QTabBar::tab {
-background-color:#fff;
-color:#000;
+background-color:#000:
+color:#fff;
 padding-left:10px;
 padding-right:10px;
 padding-top:5px;
@@ -437,14 +436,14 @@ border-right: 1px solid #000000;
 }
 
 QDialog .QTabWidget QTabBar::tab:selected, QDialog .QTabWidget QTabBar::tab:hover {
-background-color:#000000;
-color:#fff;
+background-color:#fff;
+color:#000;
 font-weight:bold;
 }
 
 QDialog .QTabWidget .QWidget {
-background-color:#000;
-color:#fff;
+background-color:#fff;
+color:#000;
 font-weight:bold; 
 }
 
@@ -1313,7 +1312,7 @@ QDialog#SendCoinsDialog QLabel#label {
 /*margin-left:20px;
 margin-right:-2px;
 padding-right:-2px;
-color:#ffffff;
+color:#000;
 font-size:10pt;
 font-weight:bold;
 border-radius:5px;
@@ -1325,7 +1324,7 @@ min-height:27px;
 QDialog#SendCoinsDialog QLabel#labelBalance {
 margin-left:0px;
 padding-left:0px;
-color:#ffffff;
+color:#000;
 /* font-weight:bold;
 border-radius:5px;
 padding-top:20px;
@@ -1341,11 +1340,11 @@ padding-left:10px;
 /* SEND COINS ENTRY */
 
 QStackedWidget#SendCoinsEntry .QFrame#SendCoins > .QLabel { /* Send Coin Entry Labels */
-background-color:#fff;
+background-color:#000;
 min-width:102px;
 font-weight:normal;
 /*font-size:8pt;*/
-color:#000;
+color:#fff;
 min-height:25px;
 margin-right:5px;
 padding-right:5px;
@@ -1549,7 +1548,7 @@ padding-right:5px;
 }
 
 QWidget#ReceiveCoinsDialog .QFrame#frame2 .QLabel#label_3 { /* Message Label */
-background-color:#fff;
+background-color:#000;
 border: 1px solid #fff;
 min-width:102px;
 color:#fff;
