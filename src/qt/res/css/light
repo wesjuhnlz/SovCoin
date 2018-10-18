@@ -71,7 +71,9 @@ background-color:#F8F6F6;
 
 QLabel { /* Base Text Size & Color */
 font-size:9pt;
-color:#333333;
+color:#fff;
+font-weight:bold;
+
 }
 
 .QCheckBox { /* Checkbox Labels */
