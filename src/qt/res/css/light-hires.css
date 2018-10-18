@@ -42,14 +42,14 @@ font-weight:bold;
 }
 
 QToolBar {
-background-color:#fff;
+background-color:#000;
 border:0px solid #fff;
 padding:0;
 margin:0;
 }
 
 QToolBar > QToolButton {
-background-color:#fff;
+background-color:#000;
 border:0px solid #fff;
 min-height:2.5em;
 min-width: 8em;
