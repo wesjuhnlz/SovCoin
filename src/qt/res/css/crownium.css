@@ -84,7 +84,7 @@ background-color:transparent;
 }
 
 .QValidatedLineEdit, .QLineEdit { /* Text Entry Fields */
-border: 1px solid #000;
+border: 1px solid #fff;
 font-size:8pt;
 min-height:25px;
 outline:0;
@@ -130,11 +130,11 @@ border:1px solid #333;
 }
 
 QComboBox { /* Dropdown Menus */
-border:1px solid #000000;
+border:1px solid #fff;
 padding: 3px 5px 3px 5px;
 background:#fcfcfc;
 min-height:25px;
-color:#818181;
+color:#000;
 }
 
 QComboBox:checked {
@@ -142,8 +142,8 @@ background:#f2f2f2;
 }
 
 QComboBox:editable {
-background: #000000;
-color:#fff;
+background: #fff;
+color:#000;
 border:0px solid transparent;
 }
 
@@ -157,7 +157,7 @@ border-image: url(':/images/light/drkblue_downArrow') 0 0 0 0 stretch stretch;
 }
 
 QComboBox QListView {
-background:#000;
+background:#fff;
 border:1px solid #333;
 padding-right:1px;
 padding-left:1px;
@@ -170,12 +170,12 @@ color:#818181;
 }
 
 QComboBox::item:alternate {
-background:#000;
+background:#fff;
 }
 
 QComboBox::item:selected {
 border:0px solid transparent;
-background:#000;
+background:#fff;
 }
 
 QComboBox::indicator {
@@ -188,16 +188,16 @@ selection-color:transparent;
 QAbstractSpinBox {
 border:1px solid #000000;
 padding: 3px 5px 3px 5px;
-background:#000;
+background:#fff;
 min-height:25px;
-color:#fff;
+color:#000;
 }
 
 QAbstractSpinBox::up-button {
 subcontrol-origin: border;
 subcontrol-position: top right;
 width:21px;
-background:#000;
+background:#fff;
 border-left:0px;
 border-right:1px solid #000000;
 border-top:1px solid #000000;
@@ -215,7 +215,7 @@ QAbstractSpinBox::down-button {
 subcontrol-origin: border;
 subcontrol-position: bottom right;
 width:21px;
-background:#000;
+background:#fff;
 border-top:0px;
 border-left:0px;
 border-right:1px solid #000000;
@@ -415,8 +415,8 @@ border: 1px solid #d7d7d7;
 }
 
 QDialog .QTabWidget QTabBar::tab {
-background-color:#000;
-color:#fff;
+background-color:#fff;
+color:#000;
 padding-left:10px;
 padding-right:10px;
 padding-top:5px;
@@ -433,13 +433,13 @@ border-right: 1px solid #d7d7d7;
 }
 
 QDialog .QTabWidget QTabBar::tab:selected, QDialog .QTabWidget QTabBar::tab:hover {
-background-color:#000;
-color:#fff;
+background-color:#fff;
+color:#000;
 }
 
 QDialog .QTabWidget .QWidget {
-background-color:#000;
-color:#fff;
+background-color:#fff;
+color:#000;
 }
 
 QDialog .QTabWidget .QWidget QAbstractSpinBox {
@@ -732,11 +732,11 @@ background:#ff0000;
 
 /* Command Line Options Dialog */
 QDialog#HelpMessageDialog {
-background-color:#F8F6F6;
+background-color:#000;
 }
 
 QDialog#HelpMessageDialog QScrollArea * {
-background-color:#ffffff;
+background-color:#000;
 }
 
 QDialog#HelpMessageDialog QScrollBar:vertical, QDialog#HelpMessageDialog QScrollBar:horizontal {
@@ -745,7 +745,7 @@ border:0;
 
 /* About SovereignCoin Dialog */
 QDialog#AboutDialog {
-background-color:#F8F6F6;
+background-color:#000;
 }
 
 QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About Bitcoin Contents */
@@ -821,7 +821,7 @@ min-height:35px;
 QWidget .QFrame#frame .QLabel#labelBalance { /* Available Balance */
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:12pt;
-color:#000000;
+color:#fff;
 margin-left:0px;
     font-weight: bold;
 }
@@ -1159,7 +1159,7 @@ background-color:transparent;
 
 QWidget#contentWidget { /* The actual content with the text/buttons/etc... */
 border-image: url(':/images/light/drkblue_walletFrame_bg') 0 0 0 0 stretch stretch;
-border-top:0px solid #000;
+border-top:0px solid #fff;
 margin:0;
 padding-top:20px;
 padding-bottom: 20px;
@@ -1176,8 +1176,8 @@ QDialog#SendCoinsDialog .QFrame#frameCoinControl { /* Coin Control Section */
 }
 
 QDialog#SendCoinsDialog .QFrame#frameCoinControl > .QLabel { /* Default Font Color and  Size */
-font-weight:normal;
-color: #999;
+font-weight:bold;
+color: #fff;
 }
 
 QDialog#SendCoinsDialog .QFrame#frameCoinControl .QPushButton#pushButtonCoinControl { /* Coin Control Inputs Button */
@@ -1187,8 +1187,8 @@ min-height:25px;
 }
 
 QDialog#SendCoinsDialog .QFrame#frameCoinControl .QLabel#labelCoinControlFeatures { /* Coin Control Header */
-color:#999;
-font-weight:normal;
+color:#fff;
+font-weight:bold;
 font-size:10pt;
 }
 
@@ -1206,7 +1206,7 @@ QDialog#SendCoinsDialog .QFrame#frameCoinControl .QValidatedLineEdit#lineEditCoi
 }
 
 QDialog#SendCoinsDialog .QFrame#frameCoinControl .QLabel#labelCoinControlChangeLabel { /* Custom Change Address Validation Label */
-font-weight:normal;
+font-weight:bold;
 qproperty-margin:-6;
 margin-right:112px;
 }
@@ -1438,17 +1438,17 @@ QDialog#CoinControlDialog .QDialogButtonBox#buttonBox QPushButton { /* Coin Cont
 }
 
 QDialog#CoinControlDialog .QFrame#frame .QRadioButton#radioTreeMode { /* Coin Control Tree Mode Selector */
-color:#818181;
-background-color:transparent;
+color:#fff;
+background-color:#000;
 }
 
 QDialog#CoinControlDialog .QFrame#frame .QRadioButton#radioListMode { /* Coin Control List Mode Selector */
-color:#818181;
-background-color:transparent;
+color:#fff;
+background-color:#000;
 }
 
 QDialog#CoinControlDialog QHeaderView::section:first { /* Bug Fix: the number "1" displays in this table for some reason... */
-color:transparent;
+color:#000;
 }
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget { /* Coin Control Widget Container */
@@ -1622,12 +1622,12 @@ margin-right:1px;
 }
 
 QLabel#transactionSumLabel { /* Example of setObjectName for widgets without name */
-color:#333333;
+color:#fff;
 font-weight:bold;
 }
  
 QLabel#transactionSum { /* Example of setObjectName for widgets without name */
-color:#333333;
+color:#fff;
 }
 
 /* TRANSACTION DETAIL DIALOG */
