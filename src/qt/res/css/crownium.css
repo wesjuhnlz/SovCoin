@@ -64,7 +64,7 @@ font-weight:bold;
 }
 
 QMessageBox {
-background-color:#F8F6F6;
+background-color:#000;
 }
 
 /*******************************************************/
@@ -157,7 +157,7 @@ border-image: url(':/images/light/drkblue_downArrow') 0 0 0 0 stretch stretch;
 }
 
 QComboBox QListView {
-background:#fff;
+background:#000;
 border:1px solid #333;
 padding-right:1px;
 padding-left:1px;
@@ -170,12 +170,12 @@ color:#818181;
 }
 
 QComboBox::item:alternate {
-background:#fff;
+background:#000;
 }
 
 QComboBox::item:selected {
 border:0px solid transparent;
-background:#f2f2f2;
+background:#000;
 }
 
 QComboBox::indicator {
@@ -188,16 +188,16 @@ selection-color:transparent;
 QAbstractSpinBox {
 border:1px solid #000000;
 padding: 3px 5px 3px 5px;
-background:#fcfcfc;
+background:#000;
 min-height:25px;
-color:#818181;
+color:#fff;
 }
 
 QAbstractSpinBox::up-button {
 subcontrol-origin: border;
 subcontrol-position: top right;
 width:21px;
-background:#fcfcfc;
+background:#000;
 border-left:0px;
 border-right:1px solid #000000;
 border-top:1px solid #000000;
@@ -215,7 +215,7 @@ QAbstractSpinBox::down-button {
 subcontrol-origin: border;
 subcontrol-position: bottom right;
 width:21px;
-background:#fcfcfc;
+background:#000;
 border-top:0px;
 border-left:0px;
 border-right:1px solid #000000;
@@ -415,8 +415,8 @@ border: 1px solid #d7d7d7;
 }
 
 QDialog .QTabWidget QTabBar::tab {
-background-color:#f2f0f0;
-color:#333;
+background-color:#000;
+color:#fff;
 padding-left:10px;
 padding-right:10px;
 padding-top:5px;
@@ -433,13 +433,13 @@ border-right: 1px solid #d7d7d7;
 }
 
 QDialog .QTabWidget QTabBar::tab:selected, QDialog .QTabWidget QTabBar::tab:hover {
-background-color:#ffffff;
-color:#333;
+background-color:#000;
+color:#fff;
 }
 
 QDialog .QTabWidget .QWidget {
-background-color:#fff;
-color:#333;
+background-color:#000;
+color:#fff;
 }
 
 QDialog .QTabWidget .QWidget QAbstractSpinBox {
