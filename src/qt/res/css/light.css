@@ -3284,7 +3284,7 @@ QWidget .QFrame#frame > .QLabel ,
 QDialog#RPCConsole QWidget#tab_peers QLabel#peerHeading ,
 QWidget,
 QWidget .QLabel {
-color:#ff000;
+color:#ff000!important;
 }
 
 
@@ -3296,7 +3296,7 @@ QTableView::item ,
 QLabel#peerHeading ,
 QDialog#RPCConsole QWidget#tab_peers QLabel#peerHeading ,
 QWidget .QLabel {
-color:#00ff00;
+color:#00ff00!important;
 }
 
 
@@ -3306,5 +3306,16 @@ color:#00ff00;
 QTableView::item ,
 #detailText,
 QWidget .QLabel {
-color:#0000ff;
+color:#0000ff!important;
+}
+
+#tabWidget QTabBar::tab ,
+#tabWidget QTabBar::tab:selected,
+QTableView::item ,
+#detailText,
+QWidget .QLabel {
+color:#0000ff!important;
+}
+#tab_info .QLabel {
+color:#abcdef!important;
 }
