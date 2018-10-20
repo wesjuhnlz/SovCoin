@@ -336,7 +336,7 @@ QComboBox QAbstractItemView::item { margin:4px; }
 
 QComboBox::item {
 
-color:#000;
+color:#fff;
 
 }
 
@@ -598,7 +598,7 @@ border-right: 0px solid #d7d7d7;
 
 .QScrollArea {
 
-background:#000;
+background:#fff;
 
 border:0px;
 
@@ -618,7 +618,7 @@ border:0px solid #fff;
 
 QTableView::item { /* Table Item */
 
-background-color:#000;
+background-color:#fff;
 
 font-size:9pt;
 
@@ -628,9 +628,9 @@ font-size:9pt;
 
 QTableView::item:selected { /* Table Item Selected */
 
-background-color:#000;
+background-color:#fff;
 
-color:#fff;
+color:#000;
 
 }
 
@@ -818,7 +818,7 @@ background-image: url(':/images/light/drkblue_rightArrow_small');
 
 QDialog .QTabWidget {
 
-border-bottom:1px solid #333;
+border-bottom:1px solid #000;
 
 }
 
@@ -972,7 +972,7 @@ QDialog#OpenURIDialog QPushButton#selectFileButton:hover {
 
 background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #f6f6f6, stop: .1 rgba(240, 240, 240, 255), stop: .95 rgba(240, 240, 240, 255), stop: 1 #ebebeb);
 
-color:#333;
+color:#000;
 
 }
 
@@ -1072,7 +1072,7 @@ QDialog#SignVerifyMessageDialog QPushButton#clearButton_SM:hover {
 
 background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #f6f6f6, stop: .1 rgba(240, 240, 240, 255), stop: .95 rgba(240, 240, 240, 255), stop: 1 #ebebeb);
 
-color:#333;
+color:#000;
 
 }
 
@@ -1088,7 +1088,7 @@ border:1px solid #9e9e9e;
 
 QDialog#SignVerifyMessageDialog QPushButton#addressBookButton_VM { /* Verify Message - Address Book Button */
 
-background-color:#000;
+background-color:transparent;
 
 border:0;
 
@@ -1120,7 +1120,7 @@ QDialog#SignVerifyMessageDialog QPushButton#clearButton_VM:hover {
 
 background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #f6f6f6, stop: .1 rgba(240, 240, 240, 255), stop: .95 rgba(240, 240, 240, 255), stop: 1 #ebebeb);
 
-color:#333;
+color:#000;
 
 }
 
@@ -1164,7 +1164,7 @@ QWidget#AddressBookPage QPushButton#newAddress:hover {
 
 background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #f6f6f6, stop: .1 rgba(240, 240, 240, 255), stop: .95 rgba(240, 240, 240, 255), stop: 1 #ebebeb);
 
-color:#333;
+color:#000;
 
 }
 
@@ -1198,7 +1198,7 @@ QWidget#AddressBookPage QPushButton#copyAddress:hover {
 
 background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #f6f6f6, stop: .1 rgba(240, 240, 240, 255), stop: .95 rgba(240, 240, 240, 255), stop: 1 #ebebeb);
 
-color:#333;
+color:#000;
 
 }
 
@@ -1232,7 +1232,7 @@ QWidget#AddressBookPage QPushButton#deleteAddress:hover {
 
 background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #f6f6f6, stop: .1 rgba(240, 240, 240, 255), stop: .95 rgba(240, 240, 240, 255), stop: 1 #ebebeb);
 
-color:#333;
+color:#000;
 
 }
 
@@ -2122,7 +2122,7 @@ QWidget .QFrame#framePrivateSend .QPushButton#privateSendAuto:hover {
 
 background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #f6f6f6, stop: .1 rgba(240, 240, 240, 255), stop: .95 rgba(240, 240, 240, 255), stop: 1 #ebebeb);
 
-color:#333;
+color:#000;
 
 }
 
@@ -2158,7 +2158,7 @@ QWidget .QFrame#framePrivateSend .QPushButton#privateSendReset:hover {
 
 background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #f6f6f6, stop: .1 rgba(240, 240, 240, 255), stop: .95 rgba(240, 240, 240, 255), stop: 1 #ebebeb);
 
-color:#333;
+color:#000;
 
 }
 
@@ -2194,7 +2194,7 @@ QWidget .QFrame#framePrivateSend .QPushButton#privateSendInfo:hover {
 
 background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #f6f6f6, stop: .1 rgba(240, 240, 240, 255), stop: .95 rgba(240, 240, 240, 255), stop: 1 #ebebeb);
 
-color:#333;
+color:#000;
 
 }
 
@@ -2464,7 +2464,7 @@ QDialog#SendCoinsDialog .QPushButton#clearButton:hover {
 
 background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #f6f6f6, stop: .1 rgba(240, 240, 240, 255), stop: .95 rgba(240, 240, 240, 255), stop: 1 #ebebeb);
 
-color:#333;
+color:#000;
 
 }
 
@@ -2498,7 +2498,7 @@ QDialog#SendCoinsDialog .QPushButton#addButton:hover {
 
 background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #f6f6f6, stop: .1 rgba(240, 240, 240, 255), stop: .95 rgba(240, 240, 240, 255), stop: 1 #ebebeb);
 
-color:#333;
+color:#000;
 
 }
 
@@ -2646,7 +2646,7 @@ QStackedWidget#SendCoinsEntry .QFrame#SendCoins .QLabel#amountLabel {
 
 color: #fff;
 
-background-color:#000;
+background-color:transparent;
 
 }
 
@@ -3110,7 +3110,7 @@ QWidget#ReceiveCoinsDialog .QFrame#frame QPushButton#showRequestButton:hover {
 
 background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #f6f6f6, stop: .1 rgba(240, 240, 240, 255), stop: .95 rgba(240, 240, 240, 255), stop: 1 #ebebeb);
 
-color:#333;
+color:#000;
 
 }
 
