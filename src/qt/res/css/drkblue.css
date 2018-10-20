@@ -3268,4 +3268,10 @@ QDialog#TransactionDescDialog QTextEdit { /* Contents of Receive Coin Dialog */
 
 border:1px solid #fff;
 
+QWidget QLabel{
+
+color:#FF0000;
+
+}
+
 }
