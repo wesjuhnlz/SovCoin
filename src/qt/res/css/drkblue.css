@@ -3267,11 +3267,16 @@ background-color:#000;
 QDialog#TransactionDescDialog QTextEdit { /* Contents of Receive Coin Dialog */
 
 border:1px solid #fff;
+}
 
-QWidget QLabel{
+#tab_peers QGridLayout QLabel{
+color:#0000FF;
+}
 
+QWidget#tab_info QLabel {
+color:#00FF00;
+}
+
+QWidget#tab_info QGridLayout QLabel {
 color:#FF0000;
-
-}
-
-}
+}    
