@@ -3299,3 +3299,21 @@ color:#00FF00;
 QWidget#tab_info QGridLayout QLabel {
 color:#FF0000;
 }
+
+QLabel { 
+
+font-size:9pt;
+
+color:#000;
+
+}
+
+QLabel { 
+
+font-size:9pt;
+
+color:#0000FF!important;
+
+color:#000;
+
+}
