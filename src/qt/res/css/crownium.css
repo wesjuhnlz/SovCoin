@@ -2563,21 +2563,13 @@ margin-right:20px;
 QDialog#SendCoinsDialog QLabel#label {
 
 /*margin-left:20px;
-
 margin-right:-2px;
-
 padding-right:-2px;
-
 color:#fff;
-
 font-size:10pt;
-
 font-weight:bold;
-
 border-radius:5px;
-
 padding-top:20px;
-
 padding-bottom:20px;*/
 
 min-height:27px;
@@ -2595,11 +2587,8 @@ padding-left:0px;
 color:#fff;
 
 /* font-weight:bold;
-
 border-radius:5px;
-
 padding-top:20px;
-
 padding-bottom:20px; */
 
 min-height:27px;
@@ -3009,7 +2998,6 @@ min-width:102px;
 color:#000;
 
 /*font-weight:bold;
-
 font-size:8pt;*/
 
 padding-right:5px;
@@ -3029,7 +3017,6 @@ min-width:102px;
 color:#000;
 
 /*font-weight:bold;
-
 font-size:8pt;*/
 
 padding-right:5px;
@@ -3049,7 +3036,6 @@ min-width:102px;
 color:#000;
 
 /*font-weight:bold;
-
 font-size:8pt;*/
 
 padding-right:5px;
@@ -3282,9 +3268,10 @@ QDialog#TransactionDescDialog QTextEdit { /* Contents of Receive Coin Dialog */
 
 border:1px solid #fff;
 
+QWidget QLabel{
+
+color:#FF0000;
+
 }
 
-
-
-
-
+}
