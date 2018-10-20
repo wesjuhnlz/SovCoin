@@ -3269,6 +3269,6 @@ QDialog#TransactionDescDialog QTextEdit { /* Contents of Receive Coin Dialog */
 border:1px solid #fff;
 }
 
-#tab_info * {
+* {
 color:#00ff00!important;
 }
