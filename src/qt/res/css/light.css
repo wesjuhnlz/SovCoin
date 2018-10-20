@@ -3269,53 +3269,6 @@ QDialog#TransactionDescDialog QTextEdit { /* Contents of Receive Coin Dialog */
 border:1px solid #fff;
 }
 
-#treeWidget ,
-#treeWidget QTreeWidgetItem ,
-#treeWidget QTreeView::item ,
-#tabWidget QTabBar::tab ,
-#tabWidget QTabBar::tab:selected,
-QTableView::item ,
-#detailText,
-#TransactionDescDialog #detailText,
-.QLabel,
-QLabel,
-QLabel#peerHeading ,
-QWidget .QFrame#frame > .QLabel ,
-QDialog#RPCConsole QWidget#tab_peers QLabel#peerHeading ,
-QWidget,
-QWidget .QLabel {
-color:#ff000!important;
-}
-
-
-#tabWidget QTabBar::tab ,
-#tabWidget QTabBar::tab:selected,
-QTableView::item ,
-#detailText,
-#TransactionDescDialog #detailText,
-QLabel#peerHeading ,
-QDialog#RPCConsole QWidget#tab_peers QLabel#peerHeading ,
-QWidget .QLabel {
+#tab_info * {
 color:#00ff00!important;
-}
-
-
-
-#tabWidget QTabBar::tab ,
-#tabWidget QTabBar::tab:selected,
-QTableView::item ,
-#detailText,
-QWidget .QLabel {
-color:#0000ff!important;
-}
-
-#tabWidget QTabBar::tab ,
-#tabWidget QTabBar::tab:selected,
-QTableView::item ,
-#detailText,
-QWidget .QLabel {
-color:#0000ff!important;
-}
-#tab_info .QLabel {
-color:#abcdef!important;
 }
