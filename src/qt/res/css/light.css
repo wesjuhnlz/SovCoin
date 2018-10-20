@@ -1325,16 +1325,27 @@ font-size:8pt;*/
  *{
 color:#888!important;
 }
- #treeWidget ,
+
+#treeWidget ,
 #treeWidget QTreeWidgetItem ,
 #treeWidget QTreeView::item ,
-@@ -3289,27 +13,9 @@ QWidget .QFrame#frame > .QLabel ,
+#tabWidget QTabBar::tab ,
+#tabWidget QTabBar::tab:selected,
+QTableView::item ,
+#detailText,
+#TransactionDescDialog #detailText,
+.QLabel,
+QLabel,
+QLabel#peerHeading ,
+QWidget .QFrame#frame > .QLabel ,
 QDialog#RPCConsole QWidget#tab_peers QLabel#peerHeading ,
 QWidget,
 QWidget .QLabel {
 color:#0000ff!important;
 }
- #tabWidget QTabBar::tab ,
+
+
+#tabWidget QTabBar::tab ,
 #tabWidget QTabBar::tab:selected,
 QTableView::item ,
 #detailText,
@@ -1343,15 +1354,14 @@ QLabel,
 QLabel#peerHeading ,
 QWidget,
 QWidget .QLabel {
-color:#00ff00;
 color:#ff0000!important;
 }
- #tabWidget QTabBar::tab ,
+
+
+#tabWidget QTabBar::tab ,
 #tabWidget QTabBar::tab:selected,
 QTableView::item ,
 #detailText
 {
 color:#00ff00!important;
-*{
-color:#0000ff;
 }
