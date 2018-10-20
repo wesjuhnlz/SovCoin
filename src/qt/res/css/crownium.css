@@ -2273,6 +2273,8 @@ min-height:16px;
 
 
 QWidget .QFrame#frame_2 QListView { /* Transaction List */
+    
+background-color:#000    
 
 font-weight:bold;
 
