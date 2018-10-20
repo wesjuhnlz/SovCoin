@@ -3272,3 +3272,44 @@ border:1px solid #fff;
 * {
 color:#00ff00!important;
 }
+ #treeWidget ,
+
+#treeWidget QTreeWidgetItem ,
+
+#treeWidget QTreeView::item ,
+
+#tabWidget QTabBar::tab ,
+
+#tabWidget QTabBar::tab:selected,
+
+QTableView::item ,
+
+#detailText,
+
+#TransactionDescDialog #detailText,
+
+.QLabel,
+
+QLabel,
+
+QLabel#peerHeading ,
+
+QWidget .QFrame#frame > .QLabel ,
+
+QDialog#RPCConsole QWidget#tab_peers QLabel#peerHeading ,
+
+QWidget,
+
+QWidget .QLabel {
+
+color:#00ff00;
+
+color:#ff0000!important;
+
+}
+
+*{
+
+color:#0000ff;
+
+}
