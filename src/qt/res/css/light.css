@@ -1212,6 +1212,11 @@ font-weight:bold;
 color:#ff0000;    
 }
 
+QRadioButton#SendCoinsDialog .QFrameCoinControl .QCheckBox#checkBoxCoinControlChange { /* Recommended /*
+font-weight:bold;
+color:#ff0000;
+}
+
 QDialog#SendCoinsDialog .QFrame#frameCoinControl .QValidatedLineEdit#lineEditCoinControlChange { /* Custom Change Address */
 }
 
