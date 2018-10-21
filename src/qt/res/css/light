@@ -158,7 +158,7 @@ border-image: url(':/images/light/drkblue_downArrow') 0 0 0 0 stretch stretch;
 
 QComboBox QListView {
 background:#fff;
-border:1px solid #000;
+border:1px solid #fff;
 padding-right:1px;
 padding-left:1px;
 }
@@ -166,7 +166,7 @@ padding-left:1px;
 QComboBox QAbstractItemView::item { margin:4px; }
 
 QComboBox::item {
-color:#000;
+color:#fff;
 }
 
 QComboBox::item:alternate {
@@ -278,7 +278,7 @@ background-color:transparent;
 
 QHeaderView::section { /* Table Header Sections */
 qproperty-alignment:center;
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 0.25, stop: 0 #000, stop: 1 #000);
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 0.25, stop: 0 #fff, stop: 1 #fff);
 color:#ff000;
 min-height:25px;
 font-weight:bold;
@@ -810,7 +810,7 @@ margin-left:16px;
 QWidget .QFrame#frame .QLabel#labelBalanceText { /* Available Balance Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
-background-color:#000;
+background-color:transparent;
 color:#ff0000;
 margin-right:5px;
 padding-right:5px;
