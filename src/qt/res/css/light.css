@@ -1187,7 +1187,7 @@ padding-left:10px;
 padding-right:10px;
 min-height:25px;  
 font-weight:bold;
-color: #ff0000;    
+color: #0000ff;    
 }
 
 QDialog#SendCoinsDialog .QFrame#frameCoinControl .QLabel#labelCoinControlFeatures { /* Coin Control Header */
