@@ -143,7 +143,7 @@ background:#f2f2f2;
 
 QComboBox:editable {
 background:#fff;
-color:#fff;
+color:#000;
 border:0px solid transparent;
 }
 
@@ -166,7 +166,7 @@ padding-left:1px;
 QComboBox QAbstractItemView::item { margin:4px; }
 
 QComboBox::item {
-color:#fff;
+color:#000;
 }
 
 QComboBox::item:alternate {
