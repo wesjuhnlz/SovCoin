@@ -75,7 +75,7 @@ color:#ff0000;
 }
 
 .QCheckBox { /* Checkbox Labels */
-color:#000;
+color:#ff0000;
 background-color:transparent;
 }
 
@@ -645,6 +645,7 @@ min-height:33px; /* base width of 25px for QLineEdit, plus padding and border */
 /* Options Dialog */
 QDialog#OptionsDialog {
 background-color:#F8F6F6;
+
 }
 
 QDialog#OptionsDialog QValueComboBox, QDialog#OptionsDialog QSpinBox {
@@ -1183,7 +1184,7 @@ color: #ff0000;
 QDialog#SendCoinsDialog .QFrame#frameCoinControl .QPushButton#pushButtonCoinControl { /* Coin Control Inputs Button */
 padding-left:10px;
 padding-right:10px;
-min-height:25px;
+min-height:25px;  
 }
 
 QDialog#SendCoinsDialog .QFrame#frameCoinControl .QLabel#labelCoinControlFeatures { /* Coin Control Header */
@@ -1205,8 +1206,6 @@ color:#ff0000;
 }
 
 QDialog#SendCoinsDialog .QFrame#frameCoinControl .QValidatedLineEdit#lineEditCoinControlChange { /* Custom Change Address */
-font-weight:bold;
-color:#ff0000;    
 }
 
 QDialog#SendCoinsDialog .QFrame#frameCoinControl .QLabel#labelCoinControlChangeLabel { /* Custom Change Address Validation Label */
