@@ -7,7 +7,7 @@ padding-bottom: 20px;
 }
 
 QStatusBar {
-background-color:#000;
+background-color:#fff;
 }
 
 .QFrame {
@@ -54,7 +54,7 @@ min-height:2.5em;
 min-width: 8em;
 padding: 0em 1em;
 /*font-weight:bold;*/
-color:#fff;
+color:#ff0000;
 }
 
 QToolBar > QToolButton:checked {
@@ -171,7 +171,7 @@ color:#000;
 }
 
 QComboBox::item:alternate {
-background:#fff;
+background:transparent;
 }
 
 QComboBox::item:selected {
@@ -1178,7 +1178,7 @@ QDialog#SendCoinsDialog .QFrame#frameCoinControl { /* Coin Control Section */
 
 QDialog#SendCoinsDialog .QFrame#frameCoinControl > .QLabel { /* Default Font Color and  Size */
 font-weight:bold;
-color: #000;
+color: #ff0000;
 }
 
 QDialog#SendCoinsDialog .QFrame#frameCoinControl .QPushButton#pushButtonCoinControl { /* Coin Control Inputs Button */
@@ -1323,7 +1323,7 @@ padding-right:5px;
 }
 
 QStackedWidget#SendCoinsEntry .QFrame#SendCoins .QLabel#amountLabel {
-color:#ff0000;
+color:#ff000;
 background-color:#000;
 }
 
@@ -1501,7 +1501,7 @@ QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::indicator { /* Coin
 
 QWidget#ReceiveCoinsDialog .QFrame#frame2 .QLabel#label_2 { /* Label Label */
 background-color:#F8F6F6;
-border: 1px solid #333;
+border: 1px solid #fff;
 min-width:102px;
 color:#000;
 /*font-weight:bold;
@@ -1511,9 +1511,9 @@ padding-right:5px;
 
 QWidget#ReceiveCoinsDialog .QFrame#frame2 .QLabel#label { /* Amount Label */
 background-color:#000;
-border: 1px solid #333;
+border: 1px solid #fff;
 min-width:102px;
-color:#fff;
+color:#ff0000;
 /*font-weight:bold;
 font-size:8pt;*/
 padding-right:5px;
@@ -1523,7 +1523,7 @@ QWidget#ReceiveCoinsDialog .QFrame#frame2 .QLabel#label_3 { /* Message Label */
 background-color:#000;
 border: 1px solid #333;
 min-width:102px;
-color:#fff;
+color:#ff0000;
 /*font-weight:bold;
 font-size:8pt;*/
 padding-right:5px;
