@@ -58,7 +58,8 @@ WalletFrame {
  /*******************************************************/
  QLabel { /* Base Text Size & Color */
  font-size:9pt;
- color:#fff;
+ color:#ff0000;
+ font-weight:bold;
  }
  .QCheckBox { /* Checkbox Labels */
  color:#000;
@@ -333,7 +334,7 @@ WalletFrame {
  border: 1px solid #d7d7d7;
  }
  QDialog .QTabWidget QTabBar::tab {
- background-color:#000;
+ background-color:transparent;
  color:#fff;
  padding-left:10px;
  padding-right:10px;
@@ -348,11 +349,11 @@ WalletFrame {
  border-right: 1px solid #d7d7d7;
  }
  QDialog .QTabWidget QTabBar::tab:selected, QDialog .QTabWidget QTabBar::tab:hover {
- background-color:#000;
+ background-color:transparent;
  color:#fff;
  }
  QDialog .QTabWidget .QWidget {
- background-color:#000;
+ background-color:transparent;
  color:#fff;
  }
  QDialog .QTabWidget .QWidget QAbstractSpinBox {
@@ -374,7 +375,7 @@ WalletFrame {
  /* FILE MENU */
  /* Dialog: Open URI */
  QDialog#OpenURIDialog {
- background-color:#000;
+ background-color:transparent;
  }
  QDialog#OpenURIDialog QLabel#label { /* URI Label */
  font-weight:bold;
@@ -395,7 +396,7 @@ WalletFrame {
  }
  /* Dialog: Sign / Verify Message */
  QDialog#SignVerifyMessageDialog {
- background-color:#000;
+ background-color:transparent;
  }
  QDialog#SignVerifyMessageDialog QPushButton#addressBookButton_SM { /* Address Book Button */
  background-color:transparent;
@@ -404,7 +405,7 @@ WalletFrame {
  }
  QDialog#SignVerifyMessageDialog QPlainTextEdit { /* Message Signing Text */
  border:1px solid #000000;
- background-color:#000;
+ background-color:transparent;
  }
  QDialog#SignVerifyMessageDialog QPushButton#pasteButton_SM { /* Paste Button */
  /* qproperty-icon: url(":/icons/light/drkblue_editpaste"); */
@@ -456,7 +457,7 @@ WalletFrame {
  }
  /* Dialog: Send and Receive */
  QWidget#AddressBookPage {
- background-color:#000;
+ background-color:transparent;
  }
  QWidget#AddressBookPage QPushButton#newAddress { /* New Address Button */
  background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #f6f6f6, stop: .1 rgba(250, 250, 250, 128), stop: .95 rgba(250, 250, 250, 255), stop: 1 #ebebeb);
@@ -518,7 +519,7 @@ WalletFrame {
  }
  /* Options Dialog */
  QDialog#OptionsDialog {
- background-color:#000;
+ background-color:transparent;
  }
  QDialog#OptionsDialog QValueComboBox, QDialog#OptionsDialog QSpinBox {
  margin-top:5px;
@@ -586,17 +587,17 @@ WalletFrame {
  /* HELP MENU */
  /* Command Line Options Dialog */
  QDialog#HelpMessageDialog {
- background-color:#000;
+ background-color:transparent;
  }
  QDialog#HelpMessageDialog QScrollArea * {
- background-color:#000;
+ background-color:transparent;
  }
  QDialog#HelpMessageDialog QScrollBar:vertical, QDialog#HelpMessageDialog QScrollBar:horizontal {
  border:0;
  }
  /* About SovereignCoin Dialog */
  QDialog#AboutDialog {
- background-color:#000;
+ background-color:transparent;
  }
  QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About Bitcoin Contents */
  margin-left:10px;
@@ -606,7 +607,7 @@ WalletFrame {
  }
  /* Edit Address Dialog */
  QDialog#EditAddressDialog {
- background-color:#000;
+ background-color:transparent;
  }
  QDialog#EditAddressDialog QLabel {
  qproperty-alignment: 'AlignVCenter | AlignRight';
@@ -661,7 +662,7 @@ WalletFrame {
  font-size:12pt;
  color:#fff;
  margin-left:0px;
-     font-weight: bold;
+ font-weight: bold;
  }
  QWidget .QFrame#frame .QLabel#labelWatchAvailable { /* Watch-only Balance */
  qproperty-alignment: 'AlignVCenter | AlignLeft';
@@ -920,7 +921,7 @@ WalletFrame {
  }
  QWidget .QFrame#frame_2 QListView { /* Transaction List */
     
-background-color:#000    
+ background-color:transparent    
  font-weight:bold;
  font-size:9pt;
  margin-top:12px;
@@ -1159,44 +1160,44 @@ padding-bottom:20px; */
  QDialog#CoinControlDialog .QDialogButtonBox#buttonBox QPushButton { /* Coin Control 'OK' button */
  }
  QDialog#CoinControlDialog .QFrame#frame .QRadioButton#radioTreeMode { /* Coin Control Tree Mode Selector */
- color:#fff;
- background-color:#000;
+ color:#ff0000;
+ background-color:transparent;
  }
  QDialog#CoinControlDialog .QFrame#frame .QRadioButton#radioListMode { /* Coin Control List Mode Selector */
- color:#fff;
- background-color:#000;
+ color:#ff0000;
+ background-color:transparent;
  }
  QDialog#CoinControlDialog QHeaderView::section:first { /* Bug Fix: the number "1" displays in this table for some reason... */
- color:#fff;
+ color:#ff0000;
  }
  QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget { /* Coin Control Widget Container */
  outline:0;
- background-color:#000;
+ background-color:transparent;
  border:0px solid #fff;
  }
  QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::item {
  }
  QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::item:selected { /* Coin Control Item (selected) */
- background-color:#000;
- color:#fff;
+ background-color:transparent;
+ color:#ff0000;
  }
  QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::item:checked { /* Coin Control Item (checked) */
- background-color:#000;
- color:#fff;
+ background-color:transparent;
+ color:#ff0000;
  }
  QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::branch:selected { /* Coin Control Branch Icon */
  background-image: url(':/images/light/drkblue_qtreeview_selected');
  background-repeat:no-repeat;
  background-position:center;
- background-color:#000;
- color:#fff;
+ background-color:transparent;
+ color:#ff0000;
  }
  QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::branch:checked { /* Coin Control Branch Icon */
  background-image: url(':/images/light/drkblue_qtreeview_selected');
  background-repeat:no-repeat;
  background-position:center;
- background-color:#000;
- color:#fff;
+ background-color:transparent;
+ color:#ff0000;
  }
  QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::seperator {
  }
@@ -1317,51 +1318,8 @@ font-size:8pt;*/
  }
  /* TRANSACTION DETAIL DIALOG */
  QDialog#TransactionDescDialog {
- background-color:#000;
+ background-color:transparent;
  }
  QDialog#TransactionDescDialog QTextEdit { /* Contents of Receive Coin Dialog */
  border:1px solid #fff;
-}
- *{
-color:#888!important;
-}
-
-#treeWidget ,
-#treeWidget QTreeWidgetItem ,
-#treeWidget QTreeView::item ,
-#tabWidget QTabBar::tab ,
-#tabWidget QTabBar::tab:selected,
-QTableView::item ,
-#detailText,
-#TransactionDescDialog #detailText,
-.QLabel,
-QLabel,
-QLabel#peerHeading ,
-QWidget .QFrame#frame > .QLabel ,
-QDialog#RPCConsole QWidget#tab_peers QLabel#peerHeading ,
-QWidget,
-QWidget .QLabel {
-color:#0000ff!important;
-}
-
-
-#tabWidget QTabBar::tab ,
-#tabWidget QTabBar::tab:selected,
-QTableView::item ,
-#detailText,
-.QLabel,
-QLabel,
-QLabel#peerHeading ,
-QWidget,
-QWidget .QLabel {
-color:#ff0000!important;
-}
-
-
-#tabWidget QTabBar::tab ,
-#tabWidget QTabBar::tab:selected,
-QTableView::item ,
-#detailText
-{
-color:#00ff00!important;
 }
