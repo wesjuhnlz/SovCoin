@@ -1209,6 +1209,7 @@ QDialog#SendCoinsDialog .QFrame#frameCoinControl .QLabel#labelCoinControlChangeL
 font-weight:bold;
 qproperty-margin:-6;
 margin-right:112px;
+color:#ff0000;    
 }
 
 QDialog#SendCoinsDialog .QScrollArea#scrollArea .QWidget#scrollAreaWidgetContents { /* Send To Widget */
@@ -1303,7 +1304,7 @@ min-height:27px;
 
 #checkboxSubtractFeeFromAmount {
 padding-left:10px;
-color:#ff0000;
+color:#ff0000!important;
 font-weight:bold;    
 }
 
@@ -1502,7 +1503,7 @@ QWidget#ReceiveCoinsDialog .QFrame#frame2 .QLabel#label_2 { /* Label Label */
 background-color:#F8F6F6;
 border: 1px solid #fff;
 min-width:102px;
-color:#000;
+color:#ff0000;
 /*font-weight:bold;
 font-size:8pt;*/
 padding-right:5px;
@@ -1522,7 +1523,7 @@ QWidget#ReceiveCoinsDialog .QFrame#frame2 .QLabel#label_3 { /* Message Label */
 background-color:#F8F6F6;
 border: 1px solid #fff;
 min-width:102px;
-color:#000;
+color:#ff0000;
 /*font-weight:bold;
 font-size:8pt;*/
 padding-right:5px;
@@ -1588,7 +1589,7 @@ font-size:10pt;
 /* RECEIVE COINS DIALOG */
 
 QDialog#ReceiveRequestDialog {
-background-color:#F8F6F6;
+background-color:#F8F6F6;    
 }
 
 QDialog#ReceiveRequestDialog QTextEdit { /* Contents of Receive Coin Dialog */
