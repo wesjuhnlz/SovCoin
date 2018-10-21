@@ -1212,6 +1212,10 @@ font-weight:bold;
 color:#ff0000;    
 }
 
+QRadioButton#SendCoinsDialog .QFrameCoinControl .QDialogButtonBox#buttonBox QPushButton { /* Recommended /*
+font-weight:bold;
+color:#ff0000;
+}
 QDialog#SendCoinsDialog .QFrame#frameCoinControl .QValidatedLineEdit#lineEditCoinControlChange { /* Custom Change Address */
 }
 
