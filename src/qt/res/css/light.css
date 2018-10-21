@@ -527,7 +527,7 @@ padding-right:10px;
 QDialog#SignVerifyMessageDialog QPushButton#clearButton_SM { /* Clear Button */
 background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #000, stop: .1 rgba(1, 1, 1, 1), stop: .95 rgba(1, 1, 1, 1), stop: 1 #000);
 border:1px solid #000;
-color:#000;
+color:#ff0000;
 padding-left:10px;
 padding-right:10px;
 }
@@ -551,7 +551,7 @@ padding-right:10px;
 QDialog#SignVerifyMessageDialog QPushButton#clearButton_VM { /* Verify Message - Clear Button */
 background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #000, stop: .1 rgba(1, 1, 1, 1), stop: .95 rgba(1, 1, 1, 1), stop: 1 #000);
 border:1px solid #000;
-color:#000;
+color:#ff0000;
 padding-left:10px;
 padding-right:10px;
 }
@@ -1234,7 +1234,7 @@ padding-right:10px;
 QDialog#SendCoinsDialog .QPushButton#clearButton { /* Clear Button */
 background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #000, stop: .1 rgba(1, 1, 1, 1), stop: .95 rgba(1, 1, 1, 1), stop: 1 #000);
 border:1px solid #000;
-color:#000;
+color:#ff0000;
 padding-left:10px;
 padding-right:10px;
 }
@@ -1544,7 +1544,7 @@ padding-right:5px;
 QWidget#ReceiveCoinsDialog .QFrame#frame2 QPushButton#clearButton { /* Clear Button */
 background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #000, stop: .1 rgba(1, 1, 1, 1), stop: .95 rgba(1, 1, 1, 1), stop: 1 #000);
 border:1px solid #000;
-color:#000;
+color:#ff0000;
 padding-left:10px;
 padding-right:10px;
 font-weight:bold;
