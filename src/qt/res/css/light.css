@@ -1340,16 +1340,19 @@ outline: 0;
 }
 
 QStackedWidget#SendCoinsEntry .QToolButton#addressBookButton { /* Address Book Button */
-padding-left:10px;
+padding-left:10px;    
 }
 
 QStackedWidget#SendCoinsEntry .QToolButton#addressBookButton {
+background-color:#ff0000;    
 }
 
 QStackedWidget#SendCoinsEntry .QToolButton#pasteButton {
+background-color:#ff0000;    
 }
 
 QStackedWidget#SendCoinsEntry .QToolButton#deleteButton {
+background-color:#ff0000;    
 }
 
 QStackedWidget#SendCoinsEntry .QLineEdit#addAsLabel { /* Pay To Input Field */
@@ -1536,6 +1539,7 @@ border:1px solid #d2d2d2;
 color:#000;
 padding-left:10px;
 padding-right:10px;
+font-weight:bold;
 }
 
 QWidget#ReceiveCoinsDialog .QFrame#frame2 QPushButton#clearButton:hover {
@@ -1566,10 +1570,11 @@ border:1px solid #9e9e9e;
 
 QWidget#ReceiveCoinsDialog .QFrame#frame QPushButton#removeRequestButton { /* Remove Button */
 background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #ff0000, stop: .1 rgba(255, 0, 0, 1), stop: .95 rgba(255, 0, 0, 1), stop: 1 #ff0000);
-border:1px solid #d2d2d2;
+border:1px solid #ff0000;
 color:#000;
 padding-left:10px;
 padding-right:10px;
+font-weight:bold;    
 }
 
 QWidget#ReceiveCoinsDialog .QFrame#frame QPushButton#removeRequestButton:hover {
