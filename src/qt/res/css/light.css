@@ -131,7 +131,7 @@ border:1px solid #000;
 }
 
 QComboBox { /* Dropdown Menus */
-border:1px solid #000;
+border:1px solid #fff;
 padding: 3px 5px 3px 5px;
 background:#fcfcfc;
 min-height:25px;
@@ -143,7 +143,7 @@ background:#f2f2f2;
 }
 
 QComboBox:editable {
-background:#000;
+background:#fff
 color:#000;
 border:0px solid transparent;
 }
@@ -1188,7 +1188,7 @@ min-height:25px;
 }
 
 QDialog#SendCoinsDialog .QFrame#frameCoinControl .QLabel#labelCoinControlFeatures { /* Coin Control Header */
-color:#000;
+color:#ff0000;
 font-weight:bold;
 font-size:10pt;
 }
@@ -1222,7 +1222,7 @@ padding-right:10px;
 }
 
 QDialog#SendCoinsDialog .QPushButton#clearButton { /* Clear Button */
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #f6f6f6, stop: .1 rgba(0,0,0,0), stop: .95 rgba(0, 0, 0, 0), stop: 1 #ebebeb);
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #f6f6f6, stop: .1 rgba(1, 1, 1, 1), stop: .95 rgba(1, 1, 1, 1), stop: 1 #ebebeb);
 border:1px solid #d2d2d2;
 color:#000;
 padding-left:10px;
@@ -1282,7 +1282,7 @@ QDialog#SendCoinsDialog QLabel#label {
 /*margin-left:20px;
 margin-right:-2px;
 padding-right:-2px;
-color:#000;
+color:#ff0000;
 font-size:10pt;
 font-weight:bold;
 border-radius:5px;
@@ -1294,7 +1294,7 @@ min-height:27px;
 QDialog#SendCoinsDialog QLabel#labelBalance {
 margin-left:0px;
 padding-left:0px;
-color:#000;
+color:#ff0000;
 /* font-weight:bold;
 border-radius:5px;
 padding-top:20px;
@@ -1304,6 +1304,8 @@ min-height:27px;
 
 #checkboxSubtractFeeFromAmount {
 padding-left:10px;
+color:#ff0000;
+font-weight:bold;    
 }
 
 
@@ -1321,7 +1323,7 @@ padding-right:5px;
 }
 
 QStackedWidget#SendCoinsEntry .QFrame#SendCoins .QLabel#amountLabel {
-color: #fff;
+color:#ff0000;
 background-color:#000;
 }
 
@@ -1463,12 +1465,12 @@ QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::item {
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::item:selected { /* Coin Control Item (selected) */
 background-color:#f7f7f7;
-color:#000;
+color:#ff0000;
 }
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::item:checked { /* Coin Control Item (checked) */
 background-color:#f7f7f7;
-color:#000;
+color:#ff0000;
 }
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::branch:selected { /* Coin Control Branch Icon */
