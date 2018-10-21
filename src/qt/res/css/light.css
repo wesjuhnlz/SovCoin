@@ -525,7 +525,7 @@ padding-right:10px;
 }
 
 QDialog#SignVerifyMessageDialog QPushButton#clearButton_SM { /* Clear Button */
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #f6f6f6, stop: .1 rgba(250, 250, 250, 128), stop: .95 rgba(250, 250, 250, 255), stop: 1 #ebebeb);
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #adadad, stop: .1 rgba(173, 173, 173, 1), stop: .95 rgba(173, 173, 173, 1), stop: 1 #adadad);
 border:1px solid #d2d2d2;
 color:#d2d2d2;
 padding-left:10px;
@@ -549,7 +549,7 @@ padding-right:10px;
 }
 
 QDialog#SignVerifyMessageDialog QPushButton#clearButton_VM { /* Verify Message - Clear Button */
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #f6f6f6, stop: .1 rgba(250, 250, 250, 128), stop: .95 rgba(250, 250, 250, 255), stop: 1 #ebebeb);
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #adadad, stop: .1 rgba(173, 173, 173, 1), stop: .95 rgba(173, 173, 173, 1), stop: 1 #adadad);
 border:1px solid #d2d2d2;
 color:#d2d2d2;
 padding-left:10px;
@@ -579,8 +579,8 @@ padding-right:10px;
 }
 
 QWidget#AddressBookPage QPushButton#newAddress:hover {
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #f6f6f6, stop: .1 rgba(240, 240, 240, 255), stop: .95 rgba(240, 240, 240, 255), stop: 1 #ebebeb);
-color:#000;
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #000, stop: .1 rgba(1, 1, 1, 1), stop: .95 rgba(1, 1, 1, 1), stop: 1 #000);
+color:#ff0000;
 }
 
 QWidget#AddressBookPage QPushButton#newAddress:pressed {
@@ -1221,9 +1221,9 @@ padding-right:10px;
 }
 
 QDialog#SendCoinsDialog .QPushButton#clearButton { /* Clear Button */
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #f6f6f6, stop: .1 rgba(1, 1, 1, 1), stop: .95 rgba(1, 1, 1, 1), stop: 1 #ebebeb);
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #adadad, stop: .1 rgba(173, 173, 173, 1), stop: .95 rgba(173, 173, 173, 1), stop: 1 #adadad);
 border:1px solid #000;
-color:#ff0000;
+color:#000;
 padding-left:10px;
 padding-right:10px;
 }
