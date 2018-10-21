@@ -278,7 +278,7 @@ background-color:transparent;
 
 QHeaderView::section { /* Table Header Sections */
 qproperty-alignment:center;
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 0.25, stop: 0 #fff, stop: 1 #fff);
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 0.25, stop: 0 #000, stop: 1 #000);
 color:#ff000;
 min-height:25px;
 font-weight:bold;
@@ -1661,4 +1661,3 @@ background-color:#F8F6F6;
 
 QDialog#TransactionDescDialog QTextEdit { /* Contents of Receive Coin Dialog */
 border:1px solid #d7d7d7;
-}
