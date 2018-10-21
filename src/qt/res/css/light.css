@@ -914,7 +914,7 @@ qproperty-alignment: 'AlignVCenter | AlignCenter';
 max-width: 421px;
 min-width: 421px;
 background-color:#000;
-color:#ff000;
+color:#ff0000;
 margin-right: 5px;
 padding-right: 5px;
 font-weight:bold;
@@ -1019,7 +1019,7 @@ qproperty-alignment: 'AlignVCenter | AlignCenter';
 min-width: 288px;
 min-height: 43px;
 font-size:8pt;
-color:#000;
+color:#ff0000;
 }
 
 /* PRIVATESEND BUTTONS */
@@ -1303,6 +1303,8 @@ min-height:27px;
 
 #checkboxSubtractFeeFromAmount {
 padding-left:10px;
+color:#ff0000;
+font-weight:bold;    
 }
 
 
