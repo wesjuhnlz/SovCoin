@@ -107,9 +107,9 @@ QPushButton { /* Global Button Style */
 background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #ff4df0, stop: .1 #ff4df0, stop: .95 #ff4df0, stop: 1 #ff4df0);
 border:0;
 border-radius:3px;
-color:#8fc4ef;
+color:#000;
 font-size:9pt;
-font-weight:normal;
+font-weight:bold;
 height: 26px;
 padding-left:25px;
 padding-right:25px;
