@@ -200,8 +200,8 @@ subcontrol-position: top right;
 width:21px;
 background:#fcfcfc;
 border-left:0px;
-border-right:1px solid #fff;
-border-top:1px solid #fff;
+border-right:1px solid #000;
+border-top:1px solid #000;
 border-bottom:0px;
 padding-right:1px;
 padding-left:5px;
@@ -219,8 +219,8 @@ width:21px;
 background:#fcfcfc;
 border-top:0px;
 border-left:0px;
-border-right:1px solid #fff;
-border-bottom:1px solid #fff;
+border-right:1px solid #000;
+border-bottom:1px solid #000;
 padding-right:1px;
 padding-left:5px;
 padding-bottom:2px;
@@ -304,7 +304,7 @@ border:0px;
 
 .QTableView { /* Table - has to be selected as a class otherwise it throws off QCalendarWidget */
 background:transparent;
-border:0px solid #fff;
+border:0px solid #000;
 }
 
 QTableView::item { /* Table Item */
@@ -422,7 +422,7 @@ padding-left:10px;
 padding-right:10px;
 padding-top:5px;
 padding-bottom:5px;
-border-top: 1px solid #d7d7d7;
+border-top: 1px solid #000;
 }
 
 QDialog .QTabWidget QTabBar::tab:first {
