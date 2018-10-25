@@ -817,7 +817,7 @@ QWidget .QFrame#frame .QLabel#labelBalanceText { /* Available Balance Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
 background-color:transparent;
-color:#000;
+color:#a5a5a5;
 margin-right:5px;
 padding-right:5px;
 font-size:10pt;
@@ -845,7 +845,7 @@ qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
 font-size:9pt;
 background-color:transparent;
-color:#000;    
+color:#a5a5a5;    
 margin-right:5px;
 padding-right:5px;
 }
@@ -981,7 +981,7 @@ border: 1px solid #000;
 border-radius: 1px;
 margin-right:43px;
 text-align: right;
-color:#fff;
+color:#a5a5a5;
 }
 
 QWidget .QFrame#framePrivateSend #privateSendFormLayoutWidget .QProgressBar#privateSendProgress::chunk {
