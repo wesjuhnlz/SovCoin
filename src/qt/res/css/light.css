@@ -59,7 +59,7 @@ color:#fff;
 
 QToolBar > QToolButton:checked {
 background-color:#000;
-color:#f5b7b1;
+color:#33475b;
 font-weight:bold;
 }
 
@@ -1158,7 +1158,7 @@ margin-left:0px; /* CSS Voodoo - set to -66px to hide default transaction icons 
 /* MODAL OVERLAY */
 
 QWidget#bgWidget { /* The 'frame' overlaying the overview-page */
-background:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #f5b7b1, stop: .1 rgba(245, 183, 177), stop: .95 rgba(245, 183, 177), stop: 1 #f5b7b1);
+background:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #33475b, stop: .1 rgba(245, 183, 177), stop: .95 rgba(245, 183, 177), stop: 1 #33475b);
 color:#000;
 padding-left:10px;
 padding-right:10px;
