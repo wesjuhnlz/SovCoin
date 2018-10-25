@@ -1519,7 +1519,7 @@ QWidget#ReceiveCoinsDialog .QFrame#frame2 .QLabel#label_2 { /* Label Label */
 background-color:transparent;
 border: 1px solid #000;
 min-width:102px;
-color:#000;
+color:#a5a5a5;
 /*font-weight:bold;
 font-size:8pt;*/
 padding-right:5px;
@@ -1529,7 +1529,7 @@ QWidget#ReceiveCoinsDialog .QFrame#frame2 .QLabel#label { /* Amount Label */
 background-color:transparent;
 border: 1px solid #fff;
 min-width:102px;
-color:#000;
+color:#a5a5a5;
 /*font-weight:bold;
 font-size:8pt;*/
 padding-right:5px;
@@ -1539,7 +1539,7 @@ QWidget#ReceiveCoinsDialog .QFrame#frame2 .QLabel#label_3 { /* Message Label */
 background-color:transparent;
 border: 1px solid #fff;
 min-width:102px;
-color:#000;
+color:#a5a5a5;
 /*font-weight:bold;
 font-size:8pt;*/
 padding-right:5px;
@@ -1548,7 +1548,7 @@ padding-right:5px;
 QWidget#ReceiveCoinsDialog .QFrame#frame2 QPushButton#clearButton { /* Clear Button */
 background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #33475b, stop: .1 rgba(51, 71, 91), stop: .95 rgba(51, 71, 91), stop: 1 #33475b);
 border:1px solid #fff;
-color:#000;
+color:#fff;
 padding-left:10px;
 padding-right:10px;
 }
