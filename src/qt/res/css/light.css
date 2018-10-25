@@ -772,7 +772,7 @@ padding-right:5px;
 /* OVERVIEW SCREEN */
 
 QWidget .QFrame#frame { /* Wallet Balance */
-min-width:490px;
+min-width:400px;
 color:#000;    
 }
 
