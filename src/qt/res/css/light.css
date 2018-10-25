@@ -168,7 +168,7 @@ padding-left:1px;
 QComboBox QAbstractItemView::item { margin:4px; }
 
 QComboBox::item {
-color:#000;
+color:#a5a5a5;
 }
 
 QComboBox::item:alternate {
@@ -192,7 +192,7 @@ border:1px solid #000;
 padding: 3px 5px 3px 5px;
 background:#fcfcfc;
 min-height:25px;
-color:#000;
+color:#a5a5a5;
 }
 
 QAbstractSpinBox::up-button {
@@ -281,7 +281,7 @@ background-color:transparent;
 QHeaderView::section { /* Table Header Sections */
 qproperty-alignment:center;
 background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 0.25, stop: 0 #fff, stop: 1 #fff);
-color:#000;
+color:#a5a5a5;
 min-height:25px;
 font-weight:bold;
 font-size:8pt;
@@ -479,7 +479,7 @@ font-weight:bold;
 QDialog#OpenURIDialog QPushButton#selectFileButton { /* ... Button */
 background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #33475b, stop: .1 rgba(51, 71, 91), stop: .95 rgba(51, 71, 91), stop: 1 #33475b);
 border:1px solid #fff;
-color:#000;
+color:#a5a5a5;
 padding-left:10px;
 padding-right:10px;
 }
