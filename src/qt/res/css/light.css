@@ -891,7 +891,7 @@ QWidget .QFrame#frame .QLabel#labelTotalText { /* Total Balance Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
 font-size:9pt;
-background-color:#a5a5a5;
+background-color:transparent;
 margin-right:5px;
 padding-right:5px;
 }
