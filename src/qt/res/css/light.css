@@ -1202,7 +1202,7 @@ min-height:25px;
 }
 
 QDialog#SendCoinsDialog .QFrame#frameCoinControl .QLabel#labelCoinControlFeatures { /* Coin Control Header */
-color:#a5a5a5;
+color:#000;
 font-weight:normal;
 font-size:10pt;
 }
@@ -1481,7 +1481,7 @@ QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::item {
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::item:selected { /* Coin Control Item (selected) */
 background-color:#f7f7f7;
-color:#00;
+color:#a5a5a5;
 }
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::item:checked { /* Coin Control Item (checked) */
